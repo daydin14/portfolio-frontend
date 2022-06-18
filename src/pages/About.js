@@ -15,7 +15,7 @@ function About(props) {
 
     console.log(about);
 
-    useEffect(() => {getAboutData()}, []);
+    useEffect(() => {getAboutData()});
 
     const loaded = () => {
         return(
