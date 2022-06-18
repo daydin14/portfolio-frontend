@@ -19,7 +19,7 @@ function App() {
       <Header />
 
 
-      <Router>
+
         <Route exact path="/">
           <Home />
         </Route>
@@ -31,7 +31,7 @@ function App() {
         <Route path="/about">
           <About URL={URL} />
         </Route>
-        </Router>
+
 
 
       <Footer />
