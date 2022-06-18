@@ -9,7 +9,7 @@ function Projects(props) {
         setProjects(data);
     };
 
-    useEffect(() => getProjectsData(), []);
+    useEffect(() => {getProjectsData()}, []);
 
     const loaded = () => {
         return projects.map((project) => (

@@ -27,7 +27,7 @@ function App() {
         </Route>
 
         <Route path="/about">
-          <About URL={URL} />
+          <About URL={URL}/>
         </Route>
 
       <Footer />
