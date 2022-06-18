@@ -1,3 +1,6 @@
+import React from "react";
+import {Route} from "react-router-dom";
+
 import './App.css';
 
 import Header from "./components/Header";
@@ -15,8 +18,8 @@ function App() {
     <div className="App">
       <Header />
 
-      <Switch>
 
+      <Router>
         <Route exact path="/">
           <Home />
         </Route>
@@ -28,8 +31,8 @@ function App() {
         <Route path="/about">
           <About URL={URL} />
         </Route>
-        
-      </Switch>
+        </Router>
+
 
       <Footer />
     </div>
