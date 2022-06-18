@@ -1,6 +1,6 @@
 import {Link} from "react-router-dom";
 
-function Header() {
+function Header(props) {
   
   const navStyle = {
     display: "flex",
@@ -31,7 +31,7 @@ function Header() {
 
         </nav>
     </header>
-  )
+  );
 }
 
 export default Header;

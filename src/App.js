@@ -18,8 +18,6 @@ function App() {
     <div className="App">
       <Header />
 
-
-
         <Route exact path="/">
           <Home />
         </Route>
@@ -31,8 +29,6 @@ function App() {
         <Route path="/about">
           <About URL={URL} />
         </Route>
-
-
 
       <Footer />
     </div>
